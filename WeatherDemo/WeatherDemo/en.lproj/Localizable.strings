@@ -1,0 +1,50 @@
+/* 
+  Localizattion.strings
+  PetesWeather
+
+  Created by Peter Ent on 10/16/20.
+  
+*/
+
+// AppController
+
+"Current Location" = "Current Location";
+
+// ContentView
+
+"Welcome" = "Welcome to WeatherDemo";
+"Pick a Location" = "Pick a Location";
+
+// LocationSearchView
+
+"Use current location" = "Use current location";
+"Search" = "Search";
+"Swipe down to dismiss" = "Swipe down to dismiss";
+"Previous Searches" = "Previous Searches";
+
+// CurrentConditionsView
+
+"Feels like" = "Feels like";
+"Humidity" = "Humidity";
+"Dew Point" = "Dew Point";
+"UV Index" = "UV Index";
+"Clouds" = "Clouds";
+"Visibility" = "Visibility";
+"Wind" = "Wind";
+"10-Hour" = "10-Hour";
+
+// WindSpeedView
+
+"N" = "N";
+"NW" = "NW";
+"W" = "W";
+"SW" = "SW";
+"S" = "S";
+"SE" = "SE";
+"E" = "E";
+"NE" = "NE";
+
+// SearchResultsView
+
+"No items found" = "No items found";
+"Search for a city or place above" = "Search for a city or place above";

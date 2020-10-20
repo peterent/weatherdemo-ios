@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <line style="stroke-dasharray: 10px; stroke-linecap: round; stroke-width: 5px; stroke: rgb(241, 241, 241);" x1="77.475" y1="213.632" x2="77.475" y2="467.271"/>
+  <line style="stroke-dasharray: 10px; stroke-linecap: round; stroke-width: 5px; stroke: rgb(241, 241, 241);" x1="126.276" y1="237.474" x2="126.276" y2="491.113"/>
+  <line style="stroke-dasharray: 10px; stroke-linecap: round; stroke-width: 5px; stroke: rgb(241, 241, 241);" x1="175.077" y1="220.404" x2="175.077" y2="474.043"/>
+  <line style="stroke-dasharray: 10px; stroke-linecap: round; stroke-width: 5px; stroke: rgb(241, 241, 241);" x1="223.878" y1="213.404" x2="223.878" y2="467.042"/>
+  <line style="stroke-dasharray: 10px; stroke-linecap: round; stroke-width: 5px; stroke: rgb(241, 241, 241);" x1="272.679" y1="236.076" x2="272.679" y2="489.716"/>
+  <line style="stroke-dasharray: 10px; stroke-linecap: round; stroke-width: 5px; stroke: rgb(241, 241, 241);" x1="321.48" y1="226.281" x2="321.48" y2="479.922"/>
+  <line style="stroke-dasharray: 10px; stroke-linecap: round; stroke-width: 5px; stroke: rgb(241, 241, 241);" x1="370.281" y1="198.645" x2="370.281" y2="452.284"/>
+  <line style="stroke-dasharray: 10px; stroke-linecap: round; stroke-width: 5px; stroke: rgb(241, 241, 241);" x1="419.08" y1="222.731" x2="419.08" y2="476.372"/>
+  <line style="stroke-dasharray: 10px; stroke-linecap: round; stroke-width: 5px; stroke: rgb(241, 241, 241);" x1="102.328" y1="222.05" x2="102.328" y2="475.689"/>
+  <line style="stroke-dasharray: 10px; stroke-linecap: round; stroke-width: 5px; stroke: rgb(241, 241, 241);" x1="148.962" y1="227.246" x2="148.962" y2="480.885"/>
+  <line style="stroke-dasharray: 10px; stroke-linecap: round; stroke-width: 5px; stroke: rgb(241, 241, 241);" x1="198.9" y1="228.155" x2="198.9" y2="481.794"/>
+  <line style="stroke-dasharray: 10px; stroke-linecap: round; stroke-width: 5px; stroke: rgb(241, 241, 241);" x1="247.258" y1="226.44" x2="247.258" y2="480.078"/>
+  <line style="stroke-dasharray: 10px; stroke-linecap: round; stroke-width: 5px; stroke: rgb(241, 241, 241);" x1="296.704" y1="223.915" x2="296.704" y2="477.555"/>
+  <line style="stroke-dasharray: 10px; stroke-linecap: round; stroke-width: 5px; stroke: rgb(241, 241, 241);" x1="343.945" y1="227.625" x2="343.945" y2="481.266"/>
+  <line style="stroke-dasharray: 10px; stroke-linecap: round; stroke-width: 5px; stroke: rgb(241, 241, 241);" x1="394.621" y1="219.098" x2="394.621" y2="472.737"/>
+  <path d="M 146.422 213.128 C 129.453 213.128 113.522 209.363 99.726 202.762 C 93.797 203.914 87.486 204.536 80.94 204.536 C 46.43 204.536 18.454 187.264 18.454 165.957 C 18.454 151.289 31.712 138.533 51.232 132.008 C 51.471 87.587 93.997 51.641 146.422 51.641 C 148.651 51.641 150.862 51.706 153.052 51.833 C 166.695 40.917 184.496 34.311 203.967 34.311 C 209.141 34.311 214.198 34.777 219.088 35.667 C 231.866 19.411 252.264 8.887 275.245 8.887 C 310.347 8.887 339.42 33.437 344.524 65.471 C 350.814 64.127 357.58 63.396 364.626 63.396 C 398.046 63.396 425.138 79.836 425.138 100.116 C 425.138 106.059 422.812 111.673 418.68 116.64 C 456.365 126.147 481.547 143.375 481.547 163.05 C 481.547 193.004 423.175 217.287 351.171 217.287 C 332.779 217.287 315.277 215.703 299.41 212.844 C 284.856 223.643 257.937 230.891 227.136 230.891 C 196.31 230.891 169.372 223.631 154.828 212.817 C 152.058 213.023 149.254 213.128 146.422 213.128 Z" style="fill: rgb(232, 232, 232);"/>
+</svg>
