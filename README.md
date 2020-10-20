@@ -9,22 +9,22 @@ The WeatherDemo app displays weather information for a specific location. If the
 ## Installation
 
 1. Clone (or download) this repository.
-2. The weather data displayed by WeatherDemo comes from openweather.com. You will need to sign up for their free service to get your own API key. Once you have the key, open the `WeatherService.swift` file and set your API key as directed in the file.
+2. The weather data displayed by WeatherDemo comes from [openweathermap.org](https://openweathermap.org). You will need to sign up for their free service to get your own API key. Once you have the key, open the `WeatherService.swift` file and set your API key as directed in the file.
 3. Build the app with Xcode 12.0.1 or higher; the target iOS must be at least iOS 14. The build will download and install Alamofire.
 4. Run the app on a simulator or real device.
 
 ## Overview
 
-I picked weather as the focus of the app for two reasons: I knew it would be small and I knew there were plenty of weather API services from which to choose. I picked `openweather.com` because its free service offers a convenient API with plenty of good documentation. While the WeatherDemo only makes a single request to openweather.com, you can use it as a template for handling other types of requests your own apps may need.
+I picked weather as the focus of the app for two reasons: I knew it would be small and I knew there were plenty of weather API services from which to choose. I picked [openweathermap.org](https://openweathermap.org) because its free service offers a convenient API with plenty of good documentation. While the WeatherDemo only makes a single request to openweathermap.org, you can use it as a template for handling other types of requests your own apps may need.
 
-To make the API requests to openweather.com I chose Alamofire which is a popular kit for handling HTTP calls and responses. I've used Alamofire in the past and its quite simple to use. The request made by WeatherDemo does not begin to touch upon all Alamofire can do, but its a good starting place. I could have gone with native `URLSession` but Alamofire is just so easy to use.
+To make the API requests to openweathermap.org I chose Alamofire which is a popular kit for handling HTTP calls and responses. I've used Alamofire in the past and its quite simple to use. The request made by WeatherDemo does not begin to touch upon all Alamofire can do, but its a good starting place. I could have gone with native `URLSession` but Alamofire is just so easy to use.
 
 This app shows you the following (in no particular order)
 
 - Shows how to request permission to track the device's location.
 - Uses the Core Location to search for places and to reverse geocode locations.
 - Core Data is used to preserve the search history.
-- Uses Alamofire for REST API requests from openweather.com
+- Uses Alamofire for REST API requests from openweathermap.org
 - Shows how to use the Decodable protocol to handle JSON data.
 - Shows a simple technique to localize strings to support multiple languages.
 - Demonstrates creating custom SwiftUI components.
@@ -34,7 +34,7 @@ This app shows you the following (in no particular order)
 
 ## Services
 
-WeatherDemo uses two services: `LocationService` and `WeatherService`. These services provide the interface from the app to the outside. Each service focuses on a specific thing: `LocationService` is interested in the device location and, if obtained, uses a reverse geocoder (`CLGeocoder` from Core Location) to get the place name for the current location. The `WeatherService` is the interface to openweather.com. When the request for weather information about a particular location returns, `WeatherService` decodes the response into a `WeatherData` structure and creates an `HourlyData` array for presentation (more on this later).
+WeatherDemo uses two services: `LocationService` and `WeatherService`. These services provide the interface from the app to the outside. Each service focuses on a specific thing: `LocationService` is interested in the device location and, if obtained, uses a reverse geocoder (`CLGeocoder` from Core Location) to get the place name for the current location. The `WeatherService` is the interface to openweathermap.org. When the request for weather information about a particular location returns, `WeatherService` decodes the response into a `WeatherData` structure and creates an `HourlyData` array for presentation (more on this later).
 
 The important thing here is that each service is focused and does not depend on each other. They get their data and that's it.
 
@@ -76,7 +76,7 @@ Being able to use SVG images with iOS apps is relatively new and very handy. All
 
 To use an SVG image, use the SwiftUI `Image` component with the asset's name: `Image("Clear-Day")` for example. Because these are scalable vector graphics, they can be shown at any size and look good. No more need to have `@2x` and `@3x` PNG files.
 
-In WeatherDemo, the `WeatherData.swift` file contains a map of weather codes (from openweather.com) to image names, minus their `-Day` or `-Night` suffixes. Once the weather data for the location is known, the `CurrentConditionsView` uses a function on `WeatherData` to get the correct image given the time of day at the location.
+In WeatherDemo, the `WeatherData.swift` file contains a map of weather codes (from openweathermap.org) to image names, minus their `-Day` or `-Night` suffixes. Once the weather data for the location is known, the `CurrentConditionsView` uses a function on `WeatherData` to get the correct image given the time of day at the location.
 
 #### Colors
 
