@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
-  <line style="stroke-dasharray: 10px; stroke-linecap: round; stroke-width: 5px; stroke: rgb(241, 241, 241);" x1="87.686" y1="160.336" x2="87.686" y2="462.905" transform="matrix(0.866025, -0.5, 0.5, 0.866025, -144.062592, 85.592269)"/>
-  <line style="stroke-dasharray: 10px; stroke-linecap: round; stroke-width: 5px; stroke: rgb(241, 241, 241);" x1="141.773" y1="130.895" x2="141.773" y2="484.505" transform="matrix(0.866025, -0.5, 0.5, 0.866025, -134.856045, 112.110518)"/>
-  <line style="stroke-dasharray: 10px; stroke-linecap: round; stroke-width: 5px; stroke: rgb(241, 241, 241);" x1="169.896" y1="5.147" x2="169.896" y2="512.473" transform="matrix(0.866025, -0.5, 0.5, 0.866025, -106.643284, 119.622018)"/>
-  <line style="stroke-dasharray: 10px; stroke-linecap: round; stroke-width: 5px; stroke: rgb(241, 241, 241);" x1="218.549" y1="19.296" x2="218.549" y2="471.654" transform="matrix(0.866025, -0.5, 0.5, 0.866025, -93.457507, 142.161974)"/>
-  <line style="stroke-dasharray: 10px; stroke-linecap: round; stroke-width: 5px; stroke: rgb(241, 241, 241);" x1="272.216" y1="-11.2" x2="272.216" y2="492.856" transform="matrix(0.866025, -0.5, 0.5, 0.866025, -83.943985, 168.372906)"/>
-  <line style="stroke-dasharray: 10px; stroke-linecap: round; stroke-width: 5px; stroke: rgb(241, 241, 241);" x1="336.178" y1="21.613" x2="336.178" y2="486.41" transform="matrix(0.866025, -0.5, 0.5, 0.866025, -81.966445, 202.120158)"/>
-  <line style="stroke-dasharray: 10px; stroke-linecap: round; stroke-width: 5px; stroke: rgb(241, 241, 241);" x1="363.53" y1="-13.323" x2="363.53" y2="420.894" transform="matrix(0.866025, -0.5, 0.5, 0.866025, -53.188967, 209.067124)"/>
-  <line style="stroke-dasharray: 10px; stroke-linecap: round; stroke-width: 5px; stroke: rgb(241, 241, 241);" x1="391.314" y1="6.1" x2="391.314" y2="302.521" transform="matrix(0.866025, -0.5, 0.5, 0.866025, -24.729103, 216.330754)"/>
+  <line style="stroke-linecap: round; stroke-width: 12px; stroke-dasharray: 10, 38; stroke: rgb(255, 255, 255);" x1="87.686" y1="160.336" x2="87.686" y2="462.905" transform="matrix(0.866025, -0.5, 0.5, 0.866025, -144.062592, 85.592269)"/>
+  <line style="stroke-linecap: round; stroke-width: 12px; stroke-dasharray: 10, 38; stroke: rgb(255, 255, 255);" x1="141.773" y1="130.895" x2="141.773" y2="484.505" transform="matrix(0.866025, -0.5, 0.5, 0.866025, -134.856045, 112.110518)"/>
+  <line style="stroke-linecap: round; stroke-width: 12px; stroke-dasharray: 10, 38; stroke: rgb(255, 255, 255);" x1="169.896" y1="5.147" x2="169.896" y2="512.473" transform="matrix(0.866025, -0.5, 0.5, 0.866025, -106.643284, 119.622018)"/>
+  <line style="stroke-linecap: round; stroke-width: 12px; stroke-dasharray: 10, 38; stroke: rgb(255, 255, 255);" x1="218.549" y1="19.296" x2="218.549" y2="471.654" transform="matrix(0.866025, -0.5, 0.5, 0.866025, -93.457507, 142.161974)"/>
+  <line style="stroke-linecap: round; stroke-width: 12px; stroke-dasharray: 10, 38; stroke: rgb(255, 255, 255);" x1="272.216" y1="-11.2" x2="272.216" y2="492.856" transform="matrix(0.866025, -0.5, 0.5, 0.866025, -83.943985, 168.372906)"/>
+  <line style="stroke-linecap: round; stroke-width: 12px; stroke-dasharray: 10, 38; stroke: rgb(255, 255, 255);" x1="336.178" y1="21.613" x2="336.178" y2="486.41" transform="matrix(0.866025, -0.5, 0.5, 0.866025, -81.966445, 202.120158)"/>
+  <line style="stroke-linecap: round; stroke-width: 12px; stroke-dasharray: 10, 38; stroke: rgb(255, 255, 255);" x1="363.53" y1="-13.323" x2="363.53" y2="420.894" transform="matrix(0.866025, -0.5, 0.5, 0.866025, -53.188967, 209.067124)"/>
+  <line style="stroke-linecap: round; stroke-width: 12px; stroke-dasharray: 10, 38; stroke: rgb(255, 255, 255);" x1="391.314" y1="6.1" x2="391.314" y2="302.521" transform="matrix(0.866025, -0.5, 0.5, 0.866025, -24.729103, 216.330754)"/>
 </svg>

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
-  <line style="stroke-linecap: round; stroke-width: 5px; stroke: rgb(241, 241, 241); stroke-dasharray: 4, 25;" x1="77.475" y1="30.569" x2="77.475" y2="467.271"/>
-  <line style="stroke-linecap: round; stroke-width: 5px; stroke: rgb(241, 241, 241); stroke-dasharray: 4, 25;" x1="126.276" y1="57.471" x2="126.276" y2="491.113"/>
-  <line style="stroke-linecap: round; stroke-width: 5px; stroke: rgb(241, 241, 241); stroke-dasharray: 4, 25;" x1="175.077" y1="30.858" x2="175.077" y2="474.043"/>
-  <line style="stroke-linecap: round; stroke-width: 5px; stroke: rgb(241, 241, 241); stroke-dasharray: 4, 25;" x1="223.878" y1="14.214" x2="223.878" y2="467.042"/>
-  <line style="stroke-linecap: round; stroke-width: 5px; stroke: rgb(241, 241, 241); stroke-dasharray: 4, 25;" x1="272.679" y1="40.466" x2="272.679" y2="489.716"/>
-  <line style="stroke-linecap: round; stroke-width: 5px; stroke: rgb(241, 241, 241); stroke-dasharray: 4, 25;" x1="321.48" y1="28.033" x2="321.48" y2="479.922"/>
-  <line style="stroke-linecap: round; stroke-width: 5px; stroke: rgb(241, 241, 241); stroke-dasharray: 4, 25;" x1="370.281" y1="17.104" x2="370.281" y2="452.284"/>
-  <line style="stroke-linecap: round; stroke-width: 5px; stroke: rgb(241, 241, 241); stroke-dasharray: 4, 25;" x1="419.08" y1="36.028" x2="419.08" y2="476.372"/>
+  <line style="stroke-linecap: round; stroke-dasharray: 4, 25; stroke-width: 12px; stroke: rgb(255, 255, 255);" x1="77.475" y1="30.569" x2="77.475" y2="467.271"/>
+  <line style="stroke-linecap: round; stroke-dasharray: 4, 25; stroke-width: 12px; stroke: rgb(255, 255, 255);" x1="126.276" y1="57.471" x2="126.276" y2="491.113"/>
+  <line style="stroke-linecap: round; stroke-dasharray: 4, 25; stroke-width: 12px; stroke: rgb(255, 255, 255);" x1="175.077" y1="30.858" x2="175.077" y2="474.043"/>
+  <line style="stroke-linecap: round; stroke-dasharray: 4, 25; stroke-width: 12px; stroke: rgb(255, 255, 255);" x1="223.878" y1="14.214" x2="223.878" y2="467.042"/>
+  <line style="stroke-linecap: round; stroke-dasharray: 4, 25; stroke-width: 12px; stroke: rgb(255, 255, 255);" x1="272.679" y1="40.466" x2="272.679" y2="489.716"/>
+  <line style="stroke-linecap: round; stroke-dasharray: 4, 25; stroke-width: 12px; stroke: rgb(255, 255, 255);" x1="321.48" y1="28.033" x2="321.48" y2="479.922"/>
+  <line style="stroke-linecap: round; stroke-dasharray: 4, 25; stroke-width: 12px; stroke: rgb(255, 255, 255);" x1="370.281" y1="17.104" x2="370.281" y2="452.284"/>
+  <line style="stroke-linecap: round; stroke-dasharray: 4, 25; stroke-width: 12px; stroke: rgb(255, 255, 255);" x1="419.08" y1="36.028" x2="419.08" y2="476.372"/>
 </svg>

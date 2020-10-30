@@ -11,15 +11,25 @@ import SwiftUI
  * Simple screen for when the user does not want to allow the current location to be used.
  */
 struct WelcomeView: View {
+    @EnvironmentObject var appController: AppController
+    
     var body: some View {
-        ZStack {
-            Image("LaunchIcon")
-                .resizable()
-                .scaledToFit()
-                .padding()
-            Text("Welcome")
-                .font(.system(size: 28, weight: .bold, design: .rounded))
-                .shadow(radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
+        VStack {
+            ZStack {
+                Image("LaunchIcon")
+                    .resizable()
+                    .scaledToFit()
+                    .padding()
+                Text("Pocket Weather")
+                    .font(.system(size: 28, weight: .bold, design: .rounded))
+                    .shadow(radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
+            }
+            if let errorMessage = appController.errorMessage {
+                Text(errorMessage)
+                    .font(.title2)
+                    .padding(.top)
+                    .shadow(color: .white, radius: 10, x: 0, y: 0)
+            }
         }
     }
 }

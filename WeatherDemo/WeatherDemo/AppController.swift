@@ -25,6 +25,7 @@ final class AppController: NSObject, ObservableObject {
     @Published var locationTitle = "Current Location".localized()
     @Published var weatherData: WeatherData?
     @Published var hourlyData: [HourlyData]?
+    @Published var errorMessage: String?
     
     var isMetric: Bool { units == .metric }
     
@@ -60,6 +61,9 @@ final class AppController: NSObject, ObservableObject {
                 self.locationTitle = title
                 self.location = location
                 self.prepareHourlyData()
+            } else {
+                self.weatherData = nil
+                self.errorMessage = "Unable to get any weather Data"
             }
         }
     }
