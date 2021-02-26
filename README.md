@@ -1,5 +1,7 @@
 # Weather Demo
 
+> UPDATE: I have replaced Alamofire (see WeatherService.swift) with Combine and URLSession. 
+
 The app in this repository is a complete SwiftUI iOS app. I wrote this app to show you a little bit of everything, a small soup-to-nuts app that has examples of the most common things you'll find in an app. Plus, this is a good way to get started understanding SwiftUI. Its one thing to read the documentation and even to do the tutorials, but having a working app to actually see things in practice can really help make sense of it all.
 
 > This app was built entirely with SwiftUI 2.0 without any customized or wrapped UIKit components.
@@ -24,7 +26,7 @@ This app shows you the following (in no particular order)
 - Shows how to request permission to track the device's location.
 - Uses the Core Location to search for places and to reverse geocode locations.
 - Core Data is used to preserve the search history.
-- Uses Alamofire for REST API requests from openweathermap.org
+- Uses URLSession along with Combine to decode the REST API request responses from openweathermap.org
 - Shows how to use the Decodable protocol to handle JSON data.
 - Shows a simple technique to localize strings to support multiple languages.
 - Demonstrates creating custom SwiftUI components.
